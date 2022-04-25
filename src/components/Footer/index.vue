@@ -27,7 +27,7 @@
     </div>
     <div class="site-info">
       <p>
-        <i class="icon icon-copyright"></i>2019-2022
+        <!--<i class="icon icon-copyright"></i>-->&copy; 2019-2022
         <i class="icon icon-heart"></i>
         启动台
       </p>
