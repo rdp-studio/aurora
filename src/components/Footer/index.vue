@@ -27,13 +27,13 @@
     </div>
     <div class="site-info">
       <p>
-        <i class="icon icon-copyright"></i>2017-2021
+        <i class="icon icon-copyright"></i>2019-2022
         <i class="icon icon-heart"></i>
-        {{ $config.title }}
+        启动台
       </p>
       <p>
         Theme -
-        <a rel="noopener noreferrer" target="_blank" href="https://github.com/chanshiyucx/aurora">Aurora</a>
+        <a rel="noopener noreferrer" target="_blank" href="https://github.com/rdp-studio/aurora">Aurora</a>
         | {{ $config.subtitle }}
       </p>
     </div>
