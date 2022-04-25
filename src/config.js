@@ -14,26 +14,26 @@ export default {
   /**
    * 站点标题
    */
-  title: '蝉時雨',
-  subtitle: '蝉鸣如雨 花宵道中',
+  title: '启动台の博客',
+  subtitle: '一个在互联网角落挣扎的小小博客，很小很小。',
 
   /**
    * Github Issues 配置
    */
-  username: 'chanshiyucx', // github 用户名
-  repository: 'blog', // 文章仓库地址
-  token: ['ghp_Vokc7d30ejgebjP', 'lTKwl2ScB1KMVnZ146OT2 '],
+  username: 'rdp-studio', // github 用户名
+  repository: 'newblog', // 文章仓库地址
+  token: ['ghp_17SX9YPNEqwvs', 'NiTZSP7QZuN6iO6Zq3spShO '],
   // token: ['0ad1a0539c5b96fd18fa', 'aaafba9c7d1362a5746c'], // token 从中间任意位置拆开成两部分，避免 github 代码检测失效
 
   /**
    * Gitalk 配置，文档详见：https://github.com/gitalk/gitalk
    */
   gitalk: {
-    clientID: '864b1c2cbc4e4aad9ed8',
-    clientSecret: '6ca16373efa03347e11a96ff92e355c5cea189bb',
-    repo: 'comment', // 评论仓库地址
-    owner: 'chanshiyucx',
-    admin: ['chanshiyucx'],
+    clientID: '50b87d6b137089dc3c87',
+    clientSecret: '01abde9d0d1bb64fdfb5fbc471fbc331a1912dc6',
+    repo: 'nbcomment', // 评论仓库地址
+    owner: 'rdp-studio',
+    admin: ['rdp-studio'],
     distractionFreeMode: false, // 是否开始无干扰模式【背景遮罩】
     proxy: 'https://bokegitalkcors.herokuapp.com/https://github.com/login/oauth/access_token',
   },
@@ -42,8 +42,8 @@ export default {
    * leancloud 配置 【注意切换为国际版】
    */
   leancloud: {
-    appId: 'LjOwR4ELEqbauKvtQbwq5TUw-MdYXbMMI',
-    appKey: 'BOSFJ49ohbGctgn4zvJE9VN6',
+    appId: 'UAoKwh9bTJidbGUYxQJVTt2e-MdYXbMMI',
+    appKey: 'YImep8bVQvqkL8x9fsyEzWWy',
   },
 
   /**
@@ -113,29 +113,29 @@ export default {
     display: true,
     enableComment: true,
     qoute: '蝉鸣如雨，花宵道中',
-    avatar: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/iavatar.jpg',
-    graduated: 'University of Electronic Science and Technology of China (UESTC)',
-    college: 'Communication&Information Engineering',
+    avatar: 'https://cravatar.cn/avatar/b07cc9f086c12774120b991c93f63aca',
+    graduated: 'RDPStudio',
+    college: 'CEO&Engineer&Developer',
     contact: [
       {
         icon: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/email.png',
-        link: 'http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=tNnR9Nfc1drH3N3NwZrX29k',
+        link: 'mailto:3461768305@qq.com',
       },
       {
         icon: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/github.png',
-        link: 'https://github.com/chanshiyucx',
+        link: 'https://github.com/rdp-studio',
       },
-      {
-        icon: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/music.png',
-        link: 'https://music.163.com/#/user/home?id=103060582',
-      },
-      {
-        icon: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/telegram.png',
-        link: 'https://t.me/chan_shi_yu',
-      },
+      //{
+      //  icon: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/music.png',
+      //  link: 'https://music.163.com/#/user/home?id=103060582',
+      //},
+      //{
+      //  icon: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/telegram.png',
+      //  link: 'https://t.me/chan_shi_yu',
+      //},
       {
         icon: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/twitter.png',
-        link: 'https://twitter.com/chanshiyucx',
+        link: 'https://twitter.com/rdpstudio_t',
       },
       // {
       //   icon: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/rsshub.png',
@@ -165,13 +165,9 @@ export default {
    */
   qrcode: [
     {
-      name: '支付宝',
-      img: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/zfb.png',
-    },
-    {
-      name: '微信',
-      img: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/blog/wx.png',
-    },
+      name: '爱发电',
+      img: 'https://s1.ax1x.com/2022/04/25/LT9tmD.jpg',
+    }
   ],
 
   /**
