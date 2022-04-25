@@ -5,21 +5,3 @@ set -e
 
 # 构建
 npm run build
-
-# cd 到构建输出的目录下 
-cd dist
-
-# 部署到自定义域名，没有自定义域名可注释掉
-echo 'nlpblog.rdpstudio.top' > CNAME
-
-git config --global user.email "noreply@rdpstudio.top"
-git config --global user.name "Aurora Deploy Bot"
-
-git init
-git add -A
-git commit -m 'deploy'
-
-# 部署到 https://<USERNAME>.github.io
-git push -f https://github.com/rdp-studio/aurora.git gh-pages
-
-cd -
