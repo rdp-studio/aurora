@@ -30,6 +30,7 @@
         <!--<i class="icon icon-copyright"></i>-->&copy; 2019-2022
         <i class="icon icon-heart"></i>
         启动台
+        | <a href="https://icp.gov.moe/?keyword=20220466" target="_blank">萌ICP备20220466号</a>
       </p>
       <p>
         Theme -
