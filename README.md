@@ -1,10 +1,6 @@
 # Aurora - An awesome blog theme
 
-## Customized for new blog
-
-[![Author](https://img.shields.io/badge/author-chanshiyucx-blue.svg?style=flat-square)](https://chanshiyu.com)
-[![QQ群](https://img.shields.io/badge/QQ群-1029784628-blue.svg?style=flat-square)](https://jq.qq.com/?_wv=1027&k=5cHOhhO)
-[![Email](https://img.shields.io/badge/Email%20me-me@chanshiyu.com-green.svg?style=flat-square)](me@chanshiyu.com)
+## Customized by Launchpad
 
 ![蝉時雨](https://i.loli.net/2019/04/28/5cc5bbc4ae020.png)
 
@@ -12,7 +8,7 @@ Aurora 是一个基于 Vue 开发的 SPA 单页面博客应用程序，使用 [G
 
 技术栈：Vue + Github Pages + Github Issues + Github Api + Gitalk。
 
-在线演示：[蝉時雨](https://chanshiyu.com)
+在线演示：[蝉時雨](https://chanshiyu.com) [启动台の博客](https://nlpblog.rdpstudio.top)
 
 ## Getting Started
 
@@ -21,7 +17,7 @@ Aurora 是一个基于 Vue 开发的 SPA 单页面博客应用程序，使用 [G
 ```bash
 npm install -g @vue/cli-service-global
 
-git clone git@github.com:chanshiyucx/aurora.git
+git clone git@github.com:rdp-studio/aurora.git
 
 cd aurora
 npm install
@@ -31,7 +27,9 @@ npm install
 
 修改配置文件 `src/config.js`，每个配置项都有详细说明。
 
-完整详细的主题食用方法参考 [Aurora 食用指南](https://chanshiyu.com/#/post/41)。
+部分页面内容固化在了源码里，请自行修改。
+
+完整详细的主题食用方法参考蝉時雨的 [Aurora 食用指南](https://chanshiyu.com/#/post/41)。
 
 ### Preview
 
