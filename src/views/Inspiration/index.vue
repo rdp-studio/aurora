@@ -4,7 +4,7 @@
       <div class="page" v-if="inspiration.length">
         <Quote :quote="$config.inspirationOpts.qoute" />
         <div class="content">
-          <Segment v-for="(item, i) in inspiration" :key="item.number" :title="item.date item.name" :color="colors[i]">
+          <Segment v-for="(item, i) in inspiration" :key="item.number" :title="item.date + ' ' + item.name" :color="colors[i]">
             <MarkDown :content="item.body" />
           </Segment>
         </div>
