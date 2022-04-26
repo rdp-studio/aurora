@@ -61,6 +61,9 @@ Just enjoy it ฅ●ω●ฅ
 - 2019/04/25 新增背景主题-千年幻想
 - 2019/03/08 新增 Valine 匿名评论功能
 
-## License
+## 协议
 
-This project is licensed under the MIT License.
+Aurora Launchpad Customized Version 使用 MIT License 开源、不提供任何担保。使用 Aurora Launchpad Customized Version 即表明，您知情并同意：
+
+* 您在使用 Aurora Launchpad Customized Version 时，必须保留页脚、控制台指向本仓库的地址。
+* 启动台 不会对您的任何损失负责，包括但不限于服务中断、Kernel Panic、机器无法开机或正常使用、数据丢失或硬件损坏、原子弹爆炸、第三次世界大战、SCP 基金会无法阻止 SCP-3125 引发的全球 MK 级现实重构等
